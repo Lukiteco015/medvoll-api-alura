@@ -1,8 +1,6 @@
 package med.voll.api.consulta;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Future;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -34,9 +32,17 @@ public class Consulta {
 
     private LocalDateTime dataHora;
 
+    private MotivoCancelamento motivo;
+
+    private boolean status;
+
     public Consulta(Paciente paciente, Medico medico, LocalDateTime dataHora) {
         this.paciente = paciente;
         this.medico = medico;
         this.dataHora = dataHora;
+    }
+    public void cancelamento(MotivoCancelamento motivo) {
+        this.motivo = motivo;
+        this.status = false;
     }
 }
