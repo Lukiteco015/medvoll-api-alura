@@ -77,5 +77,6 @@ A funcionalidade de agendamento de consultas valida as seguintes regras:
 6.  **Disponibilidade do Paciente:** Um paciente não pode agendar mais de uma consulta no mesmo dia.
 7.  **Disponibilidade do Médico:** Um médico não pode ter mais de uma consulta agendada no mesmo horário.
 8.  **Escolha Opcional do Médico:** Se o médico não for especificado, o sistema escolhe aleatoriamente um médico que esteja disponível no horário solicitado.
+9.  **Antecedência mínima de cancelamento:** Uma consulta somente poderá ser cancelada com antecedência mínima de 24 horas.
 
 -----
