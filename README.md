@@ -19,6 +19,7 @@ Este projeto foi construído como parte da formação back-end da Alura, aplican
   - **CRUD de Médicos:** Cadastro, listagem, atualização e exclusão lógica de médicos.
   - **CRUD de Pacientes:** Cadastro, listagem, atualização e exclusão lógica de pacientes.
   - **Agendamento de Consultas:** Endpoint para agendar novas consultas, aplicando todas as regras de negócio.
+  - **Cancelamento de Consultas:** Endpoint para cancelar consultas já registradas, aplicando todas as regras de negócio.
   - **Validações de Negócio:** Sistema robusto de validações para garantir a qualidade dos agendamentos.
 
 -----
