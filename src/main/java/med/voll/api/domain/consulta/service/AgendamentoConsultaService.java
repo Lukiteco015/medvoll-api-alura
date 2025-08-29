@@ -1,11 +1,11 @@
-package med.voll.api.consulta.service;
+package med.voll.api.domain.consulta.service;
 
 import jakarta.validation.ValidationException;
-import med.voll.api.consulta.Consulta;
-import med.voll.api.consulta.ConsultaRepository;
-import med.voll.api.consulta.DadosCadastroConsulta;
-import med.voll.api.medico.MedicoRepository;
-import med.voll.api.paciente.PacienteRepository;
+import med.voll.api.domain.consulta.Consulta;
+import med.voll.api.domain.consulta.ConsultaRepository;
+import med.voll.api.domain.consulta.DadosCadastroConsulta;
+import med.voll.api.domain.medico.MedicoRepository;
+import med.voll.api.domain.paciente.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

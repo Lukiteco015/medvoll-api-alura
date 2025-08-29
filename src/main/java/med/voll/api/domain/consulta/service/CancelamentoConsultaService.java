@@ -1,8 +1,8 @@
-package med.voll.api.consulta.service;
+package med.voll.api.domain.consulta.service;
 
 import jakarta.validation.ValidationException;
-import med.voll.api.consulta.ConsultaRepository;
-import med.voll.api.consulta.MotivoCancelamento;
+import med.voll.api.domain.consulta.ConsultaRepository;
+import med.voll.api.domain.consulta.MotivoCancelamento;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
